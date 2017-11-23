@@ -1,0 +1,6 @@
+project("Limbaj")
+
+file(GLOB_RECURSE SOURCE_FILES *.cpp)
+file(GLOB_RECURSE INCLUDE_FILES *.h)
+
+add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${INCLUDE_FILES})
